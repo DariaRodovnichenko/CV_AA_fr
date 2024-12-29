@@ -40,7 +40,7 @@ a {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
 /* About Me */
@@ -57,7 +57,7 @@ a {
 .my-profession {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 17px;
   color: #000000;
   margin: 0 0 18px 0;
@@ -95,7 +95,7 @@ a {
   color: var(--primary-color);
 }
 
-.project-item-link:hover {
+/* .project-item-link:hover {
   color: #6d9bf5;
   text-decoration: underline;
 }
@@ -103,12 +103,11 @@ a {
 .project-item-link:focus {
   color: #ff00a6;
   text-decoration: underline;
-}
+} */
 
 .project-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  padding: 0 0 0 16px;
+  margin: 8px 0 0 0;
 }
 
 .project-item:not(:last-child) {
@@ -194,17 +193,17 @@ a {
 
 /* Contacts */
 
-.contacts-type {
+/* .contacts-type {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   color: #161d2a;
   margin-right: 8px;
-}
+} */
 
 .contacts-item {
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
 .contacts-number:hover,
@@ -239,8 +238,7 @@ a {
 .tech-skills-container,
 .soft-skills-container,
 .languages-container {
-  margin-top: 36px;
-  margin-left: 24px;
+  margin: 20px 4px 0 24px;
 }
 
 .sidebar-title {
@@ -278,6 +276,11 @@ a {
   font-size: 14px;
   line-height: 15px;
   color: #000f84;
+  margin-bottom: 8px;
+}
+
+.education-details {
+  margin: 0 0 16px 0;
 }
 
 /* Skills */
