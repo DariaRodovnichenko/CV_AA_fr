@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,326 +11,89 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>My resume</title>
+    <title>Daria Rodovnichenko - Work Experience</title>
+    
   </head>
+
   <body>
-    <!-- Wrapper -->
-    <div class="wrapper">
+    
+    <!-- Main Content Wrapper -->
+    <section class="content-with-sidebar">
+     
+      <!-- Language Selector -->
+    <nav id="language-selector" aria-label="Language Selector">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('fr')">Français</button>
+    </nav>
+     
       <!-- Main Content -->
       <div class="main-content">
         <!-- About Me -->
-        <div class="about-me-container">
-          <h1 class="my-name">Daria Rodovnichenko</h1>
-          <h2 class="my-profession">
+        <div class="about-me-container" data-key="about-me">
+          <h1 data-key="name" class="my-name">Daria Rodovnichenko</h1>
+          <h2 data-key="profession" class="my-profession">
             Professionnelle Administrative | Support RH
           </h2>
-          <p class="my-summary">
-            Professionnelle administrative expérimentée avec plus de 7 ans
-            d'expérience en gestion d'équipe, optimisation des processus et
-            service client. Réussites prouvées dans la coordination des tâches
-            administratives, la formation des collaborateurs et la gestion des
-            opérations quotidiennes dans des environnements dynamiques.
-            Passionnée par le développement d'environnements de travail positifs
-            et lamélioration des processus administratifs.
+          <p data-key="summary" class="my-summary">
+            Professionnelle administrative expérimentée...
           </p>
-
-          <!-- <p class="my-descr">
-            Junior Front-End Developer with hands-on experience in creating
-            responsive web applications and a solid foundation in modern
-            development tools and practices. Currently advancing my expertise
-            through a Full Stack Developer program, including HTML, CSS,
-            JavaScript, TypeScript, React, and Node.js. Eager to bring a blend
-            of technical and customer-oriented skills to a dynamic development
-            team.
-          </p> -->
-        </div>
-
-        <!-- My Projects -->
-        <div class="projects-container">
-          <h3 class="main-content-title">Compétences Clés</h3>
-          <ul class="project-list">
-            <li class="project-item">
-              Coordination de l'onboarding et des formations des collaborateurs.
-            </li>
-            <li class="project-item">
-              Gestion des dossiers administratifs et suivi des processus RH.
-            </li>
-            <li class="project-item">
-              Organisation d'événements internes et activités d'équipe.
-            </li>
-            <li class="project-item">
-              Analyse des données et création de rapports (Excel, PowerPoint).
-            </li>
-            <li class="project-item">
-              Maîtrise de la communication écrite et orale en français et en
-              anglais.
-            </li>
+          <ul data-key="skills" class="main-skills">
+            <li>Gestion des opérations quotidiennes</li>
+            <!-- Other skills will be dynamically loaded -->
           </ul>
         </div>
 
         <!-- Work Experience -->
-        <div class="work-experience-container">
+        <div class="work-experience-container" data-key="work-experience">
           <h3 class="main-content-title">Expérience Professionnelle</h3>
-
-          <!-- Company 1 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barista
-              <span class="work-experience-company">MAME Romandie GmbH</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2023 - Août 2024 | Genève, Suisse
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Gestion des opérations quotidiennes et suivi administratif pour
-                garantir un service fluide.
-              </li>
-              <li class="work-duties">
-                Assistance aux clients et support dans la coordination des
-                services, renforçant les compétences en communication.
-              </li>
-              <li class="work-duties">
-                Suivi des coûts et contrôle de la qualité du service.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 2 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Co-propriétaire et Chef-Barista
-              <span class="work-experience-company">Industrial Coffee</span>
-            </h4>
-            <p class="work-period">Juillet 2020 - Mai 2023 | Kyiv, Ukraine</p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Coordination des plannings, intégration et formation des
-                collaborateurs.
-              </li>
-              <li class="work-duties">
-                Gestion des stocks, collaboration avec les fournisseurs, et
-                optimisation des processus.
-              </li>
-              <li class="work-duties">
-                Création d'un environnement de travail collaboratif et respect
-                des standards de service.
-              </li>
-              <li class="work-duties">
-                Analyse financière et reporting précis pour optimiser la
-                rentabilité (+5 % en un an).
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 3 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barista
-              <span class="work-experience-company">Filomena SA</span>
-            </h4>
-            <p class="work-period">Juillet 2022 - Mars 2023 | Genève, Suisse</p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Expérience directe avec les clients, garantissant une rapidité
-                et une attention particulière service, dans le respect des
-                normes de qualité
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 4 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Sales Manager/Barista
-              <span class="work-experience-company"
-                >Coffee House / Dim Kavy</span
-              >
-            </h4>
-            <p class="work-period">
-              Avril 2017 - Décembre 2019 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Formation des équipes sur les compétences en service et gestion
-                des ventes.
-              </li>
-              <li class="work-duties">
-                Gestion des opérations quotidiennes, garantissant l'efficacité
-                et la satisfaction client.
-              </li>
-              <li class="work-duties">
-                Formation et vente d'équipements professionnels et domestiques,
-                garantissant une utilisation optimale et une satisfaction client
-                maximale.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 5 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Barman/Administrator
-              <span class="work-experience-company">Camden Coffee Shop</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2016 - Avril 2017 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Gérer toutes les tâches administratives des opérations
-                quotidiennes, en développant la capacité de gérer efficacement
-                plusieurs priorités.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company 6 -->
-          <div class="work-experience-place">
-            <h4 class="work-experience-position">
-              Responsable Marketing Régional
-              <span class="work-experience-company">SGroup</span>
-            </h4>
-            <p class="work-period">
-              Septembre 2015 - Avril 2016 | Kyiv, Ukraine
-            </p>
-            <ul class="work-duties-list">
-              <li class="work-duties">
-                Collecte et analyse des données pour soutenir les stratégies
-                marketing et opérationnelles.
-              </li>
-              <li class="work-duties">
-                Préparation de rapports détaillés pour optimiser les ventes et
-                la gestion des points de distribution.
-              </li>
-            </ul>
-          </div>
+          <!-- Dynamic work experience items will populate here -->
         </div>
       </div>
 
-      <!-- Side Bar -->
+      <!-- Sidebar -->
       <aside class="sidebar">
         <img
           src="./img/photo1.jpg"
-          alt="My Photo"
+          alt="Daria Rodovnichenko's Photo"
           width="370px"
           class="my-photo"
         />
 
-        <!-- Info -->
-        <!-- <div class="info-container">
-          <p>Née: 28.06.1993</p>
-          <p>Nationalité: Ukraine</p>
-          <p>Permis de séjour: S</p>
-        </div> -->
-
         <!-- Contacts -->
-        <div class="contacts-container">
+        <div data-key="contacts" class="contacts-container">
           <h3 class="sidebar-title">Contacts</h3>
-          <p class="contacts-item">
-            <a href="tel:+41767028665" class="contacts-number"
-              >+41 76 702 86 65</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a
-              href="mailto:daria.rodovnichenko@gmail.com"
-              class="contacts-email"
-              >daria.rodovnichenko@gmail.com</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a
-              href="https://www.linkedin.com/in/daria-rodovnichenko/"
-              class="contacts-email"
-              >LinkedIn</a
-            >
-          </p>
-          <p class="contacts-item">
-            <a
-              href="https://github.com/DariaRodovnichenko"
-              class="contacts-email"
-              >GitHub</a
-            >
-          </p>
+          <!-- Dynamic contacts items will populate here -->
         </div>
 
         <!-- Education -->
-        <div class="education-container">
-          <h3 class="sidebar-title">Education</h3>
-          <h4 class="education-university">IT School GoIT</h4>
-          <h5 class="education-specialization">
-            Programme Développeur Fullstack
-          </h5>
-          <p class="education-period">Février 2023 - Avril 2024 | Ukraine</p>
-          <p class="education-details">
-            Focus: HTML, CSS, JavaScript, TypeScript, React, Node.js.
-          </p>
-
-          <h4 class="education-university">
-            Université Nationale de Commerce et d'Économie de Kyiv
-          </h4>
-          <h5 class="education-specialization">Master en Marketing</h5>
-          <p class="education-period">
-            Septembre 2010 - Septembre 2015 | Ukraine
-          </p>
-          <p class="education-details">
-            Focus: Gestion organisationnelle et analyse des données.
-          </p>
+        <div data-key="education" class="education-container">
+          <h3 class="sidebar-title" id="education-title"></h3>
+          <!-- Dynamic education items will populate here -->
         </div>
 
-        <!-- Tech Skills -->
-        <div class="tech-skills-container">
+        <!-- Technical Skills -->
+        <div data-key="tech-skills" class="tech-skills-container">
           <h3 class="sidebar-title">Compétences Techniques</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">
-              Microsoft (Word, Excel, PowerPoint, Teams)
-            </li>
-            <li class="skills-list-item">
-              Google (Meet, Drive, Chat, Docs, Sheets)
-            </li>
-            <li class="skills-list-item">ChatGPT</li>
-            <li class="skills-list-item">Slack</li>
-            <li class="skills-list-item">Trello</li>
-            <li class="skills-list-item">Dev Tools (HTML, CSS, JS, GIT)</li>
-          </ul>
+          <!-- Dynamic tech skills items will populate here -->
         </div>
 
         <!-- Soft Skills -->
-        <div class="soft-skills-container">
+        <div data-key="soft-skills" class="soft-skills-container">
           <h3 class="sidebar-title">Compétences Personnelles</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">Rigueur et souci du détail</li>
-            <li class="skills-list-item">
-              Capacité d'organisation et de travail en autonomie
-            </li>
-            <li class="skills-list-item">
-              Excellentes aptitudes relationnelles et service client
-            </li>
-          </ul>
+          <!-- Dynamic soft skills items will populate here -->
         </div>
 
         <!-- Languages -->
-        <div class="languages-container">
+        <div data-key="languages" class="languages-container">
           <h3 class="sidebar-title">Langues</h3>
-          <ul class="skills-list">
-            <li class="skills-list-item">
-              <span class="skills-list-text">Français: B2</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Anglais: C1</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Ukrainien: Langue maternelle</span>
-            </li>
-            <li class="skills-list-item">
-              <span class="skills-list-text">Russe</span>
-            </li>
-          </ul>
+          <!-- Dynamic languages items will populate here -->
         </div>
       </aside>
-    </div>
+    </section>
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
