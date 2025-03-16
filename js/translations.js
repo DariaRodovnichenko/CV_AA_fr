@@ -59,7 +59,7 @@ const translations = {
       },
       {
         title: 'Barman-Administrator',
-        company: 'Camden Coffee Shop| Kyiv, Ukraine',
+        company: 'Camden Coffee Shop | Kyiv, Ukraine',
         period: 'September 2016 - April 2017',
         responsibilities: [
           'Managing all administrative tasks of daily operations, developing the ability to effectively manage multiple priorities.',
@@ -75,6 +75,7 @@ const translations = {
         ],
       },
     ],
+
     // Side Bar
     contacts: {
       title: 'Contacts',
@@ -88,7 +89,17 @@ const translations = {
     educationTitle: 'Education',
     education: [
       {
-        university: 'IT School GoIt | Ukraine',
+        school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'Angular Developer',
+        period: 'March 2025 - Maz 2025',
+      },
+      {
+        school: 'Nomades Advanced Technologies | Geneva',
+        specialization: 'JS Software Developer',
+        period: 'January 2025 - March 2025',
+      },
+      {
+        school: 'IT School GoIt | Ukraine',
         specialization: 'Fullstack Developer',
         period: 'February 2023 - April 2024',
       },
@@ -108,7 +119,7 @@ const translations = {
           'Slack',
           'Trello',
           'ChatGpt',
-          'Dev Tools (HTML, CSS, JS, GIT)',
+          'Dev Tools (HTML, CSS, JS, React, Angular, GIT)',
         ],
       },
     ],
@@ -190,7 +201,7 @@ const translations = {
       },
       {
         title: 'Barman-Administrator',
-        company: 'Camden Coffee Shop| Kyiv, Ukraine',
+        company: 'Camden Coffee Shop | Kyiv, Ukraine',
         period: 'Septembre 2016 - Avril 2017',
         responsibilities: [
           'Gestion de toutes les tâches administratives des opérations quotidiennes, développant la capacité de gérer efficacement plusieurs priorités.',
@@ -218,6 +229,16 @@ const translations = {
     },
     educationTitle: 'Education',
     education: [
+      {
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Angular',
+        period: 'Mars 2025 - Mai 2025',
+      },
+      {
+        school: 'Nomades Advanced Technologies | Genève',
+        specialization: 'Développeur Java Script',
+        period: 'Janvier 2025 - Mars 2025',
+      },
       {
         university: 'IT School GoIt | Ukraine',
         specialization: 'Programme Développeur Fullstack',
