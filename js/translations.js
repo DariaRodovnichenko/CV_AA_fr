@@ -6,7 +6,7 @@ const translations = {
         name: 'Daria Rodovnichenko',
         profession: 'Administrative Assistant | HR Support',
         summary:
-          'Experienced administrative professional with over 7 years in team management, process optimization, and customer service. Proven track record in coordinating administrative tasks, training employees, and managing daily operations in dynamic environments. Passionate about fostering positive work environments and enhancing administrative processes.',
+          'Experienced administrative professional with over 8 years in team management, process optimization, and customer service. Proven track record in coordinating administrative tasks, training employees, and managing daily operations in dynamic environments. Passionate about fostering positive work environments and enhancing administrative processes.',
 
         skills: 'Key Skills',
         list: [
