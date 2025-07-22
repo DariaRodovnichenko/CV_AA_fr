@@ -131,7 +131,7 @@ const translations = {
     languages: [
       {
         title: 'Languages',
-        list: ['English: C1', 'French: B2', 'Ukrainian: Native', 'Russian'],
+        list: ['English: C1', 'French: B2', 'Ukrainian: Native'],
       },
     ],
   },
@@ -270,8 +270,7 @@ const translations = {
         list: [
           'Français: B2',
           'Anglais: C1',
-          'Ukrainien: Langue maternelle',
-          'Russe',
+          'Ukrainien: Langue maternelle'
         ],
       },
     ],
