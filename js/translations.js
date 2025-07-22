@@ -90,17 +90,12 @@ const translations = {
     education: [
       {
         school: 'Nomades Advanced Technologies | Geneva',
-        specialization: 'Angular Developer',
-        period: 'March 2025 - Maz 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Geneva',
-        specialization: 'JS Software Developer',
-        period: 'January 2025 - March 2025',
+        specialization: 'Full-Stack Developer',
+        period: 'January 2025 - June 2025',
       },
       {
         school: 'IT School GoIt | Ukraine',
-        specialization: 'Fullstack Developer',
+        specialization: 'Full-Stack Developer',
         period: 'February 2023 - April 2024',
       },
       {
@@ -147,9 +142,9 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession: 'Professionnelle Administrative | Support RH',
+        profession: 'Assistant Administrative | Support RH',
         summary:
-          "Professionnelle administrative expérimentée avec plus de 7 ans d'expérience en gestion d'équipe, optimisation des processus et service client. Réussites prouvées dans la coordination des tâches administratives, la formation des collaborateurs et la gestion des opérations quotidiennes dans des environnements dynamiques.Passionnée par le développement d'environnements de travail positifs et l'amélioration des processus administratifs.",
+          "Assistante administrative expérimentée avec plus de 8 ans d'expérience en gestion d'équipe, optimisation des processus et service client. Réussites prouvées dans la coordination des tâches administratives, la formation des collaborateurs et la gestion des opérations quotidiennes dans des environnements dynamiques. Passionnée par le développement d'environnements de travail positifs et l'amélioration des processus administratifs.",
 
         skills: 'Compétences Clés',
         list: [
@@ -231,17 +226,12 @@ const translations = {
     education: [
       {
         school: 'Nomades Advanced Technologies | Genève',
-        specialization: 'Développeur Angular',
-        period: 'Mars 2025 - Mai 2025',
-      },
-      {
-        school: 'Nomades Advanced Technologies | Genève',
-        specialization: 'Développeur Java Script',
-        period: 'Janvier 2025 - Mars 2025',
+        specialization: 'Développeuse Full-Stack Diplomée',
+        period: 'Janvier 2025 - Juin 2025',
       },
       {
         university: 'IT School GoIt | Ukraine',
-        specialization: 'Programme Développeur Fullstack',
+        specialization: 'Développeuse Full-Stack',
         period: 'Février 2023 - Avril 2024',
       },
       {
